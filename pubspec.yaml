@@ -1,0 +1,16 @@
+name: testcase_serialize_typedef
+description: "Minimal testcase for json_serializable's issue #1124"
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  json_annotation: ^4.4.0
+
+dev_dependencies:
+  build_runner: ^2.1.8
+  json_serializable: ^6.1.5
+
+  test: ^1.20.2
